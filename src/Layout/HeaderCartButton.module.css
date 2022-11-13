@@ -24,7 +24,7 @@
 }
 
 .badge {
-  background-color: #b94517;
+  background-color: #66DE93;
   padding: 0.25rem 1rem;
   border-radius: 25px;
   margin-left: 1rem;
@@ -33,7 +33,7 @@
 
 .button:hover .badge,
 .button:active .badge {
-  background-color: #92320c;
+  background-color: #3fbd6f;
 }
 
 .bump {
