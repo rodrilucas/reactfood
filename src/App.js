@@ -9,7 +9,7 @@ function App() {
 
   const [cartIsShow, setCartIsShow] = useState(false);
 
-  const showCartHanlder = () => {
+  const showCartHandler = () => {
     setCartIsShow(true);
   };
 
@@ -20,7 +20,7 @@ function App() {
   return (
     <CartProvider>
       {cartIsShow && <Cart onClose={hideCartHandler}/>}
-      <Header onShowCart={showCartHanlder}/>
+      <Header onShowCart={showCartHandler}/>
       <main>
         <Meals />
       </main>
