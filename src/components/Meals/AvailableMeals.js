@@ -27,6 +27,12 @@ const DUMMY_MEALS = [
     description: "Healthy...and green...",
     price: 18.99,
   },
+  {
+    id: "m5",
+    name: "Picanha",
+    description: "A melhor picanha da cidade",
+    price: 59.99,
+  },
 ];
 
 const AvailableMeals = () => {
